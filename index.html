@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Plataforma Piloto Hypermind</title>
   <style>
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       font-family: 'Segoe UI', sans-serif;
       background: #f4f4f8;
@@ -56,6 +59,38 @@
     .detalle a {
       color: #5c2d91;
       text-decoration: underline;
+    }
+    img.icono {
+      width: 32px;
+      height: 32px;
+      vertical-align: middle;
+      margin-right: 0.5rem;
+    }
+    ul.enlaces-cripto {
+      list-style: none;
+      padding: 0;
+    }
+    ul.enlaces-cripto li {
+      margin-bottom: 0.5rem;
+    }
+    ul.enlaces-cripto a {
+      color: #2b2b7b;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    ul.enlaces-cripto a:hover {
+      text-decoration: underline;
+    }
+    .web3-icon {
+      width: 28px;
+      height: 28px;
+      vertical-align: middle;
+      margin-right: 0.4rem;
+    }
+    .enlaces-cripto li::before {
+      content: "🪶";
+      margin-right: 0.5rem;
+      color: #5c2d91;
     }
   </style>
 </head>
@@ -194,13 +229,7 @@
     <p class="detalle"><a href="#departamentos">⬅ Volver a Departamentos</a></p>
   </section>
 
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>¿Deseas colaborar, aprender o impulsar esta red? Escríbenos a: <strong>guillermo.munoz.orts@gmail.com</strong></p>
-    <p><a class="volver" href="#">⬅ Volver a inicio</a></p>
-  </section>
-
-  <section id="">
+   <section id="">
     <h2><img class="icono" src="https://img.icons8.com/color/48/experimental.png" alt="" />Laboratorios y Comunidad Virtual</h2>
     <p>Espacio dinámico de co-creación donde se conectan saberes, talentos y proyectos. Cada laboratorio representa una célula viva de aprendizaje, innovación y transformación colectiva.</p>
 
@@ -347,11 +376,25 @@
 
     <h3>Fondo Fiduciario de HyperMind</h3>
     <p>Un sistema de staking ético que permite a los usuarios invertir en activos como oro, bienes raíces, Bitcoin y proyectos Web3. A través de esta participación, se obtienen dividendos simbólicos y se fortalece una economía regenerativa.</p>
+
+    <h3>🌐 Herramientas recomendadas:</h3>
+    <ul class="enlaces-cripto">
+      <li><a href="https://communityrule.info/create/" target="_blank">🧩 CommunityRule – Diseño de DAO y reglas comunitarias</a></li>
+      <li><a href="https://www.togethercrew.com/" target="_blank">🗳️ TogetherCrew – Sistema de votación y análisis social DAO</a></li>
+      <li><a href="https://reclaimprotocol.org/" target="_blank">🔐 Reclaim Protocol – Identidad y credenciales descentralizadas</a></li>
+      <li><a href="https://snapshot.box/#/create/snapshot" target="_blank">📊 Snapshot – Herramienta de votaciones DAO</a></li>
+      <li><a href="https://safe.global/?ref=ournetwork.ghost.io" target="_blank">🧮 Safe (Gnosis Safe) – Multisig y gestión segura de fondos</a></li>
+    </ul>
   </section>
   <section id="ong">
     <h2>Vinculación ONG</h2>
     <p>Plataforma conectada con la ONG <strong>Expansión Púrpura Ananda Iré</strong>, dedicada a la educación transformadora y la creación de comunidades regenerativas.</p>
     <p><a href="https://expansionpurpura.org" target="_blank">Visitar Sitio Web de la ONG</a></p>
+    <p><a class="volver" href="#">⬅ Volver a inicio</a></p>
+  </section>
+   <section id="contacto">
+    <h2>Contacto</h2>
+    <p>¿Deseas colaborar, aprender o impulsar esta red? Escríbenos a: <strong>guillermo.munoz.orts@gmail.com</strong></p>
     <p><a class="volver" href="#">⬅ Volver a inicio</a></p>
   </section>
   <footer>
